@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimimum Function </title>
+</head>
+
+<body>
+    <script>
+        function sum(...Intput) {
+            var total = 0;
+            for (let i of Intput) {
+                total += i;
+
+            }
+            console.log(total);
+        }
+        sum(1, 2, 3, 4, 5, 6, 7);
+        sum(-1, -5, 10);
+        sum(10, 20);
+    </script>
+</body>
+
+</html>
